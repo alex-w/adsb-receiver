@@ -73,7 +73,7 @@ log_heading "Updating apt repositories"
 apt update -y
 
 log_heading "Installing rbfeeder"
-check_package install rbfeeder -y
+check_package rbfeeder
 
 
 ## POST INSTALLATION OPERATIONS
