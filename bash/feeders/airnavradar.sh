@@ -51,13 +51,10 @@ log_message "Removing the old source list"
 log_message "Setting repository based on distribution"
 distro="bookworm"
 case $RECEIVER_OS_CODE_NAME in
-    focal)
-        echo 'deb https://apt.rb24.com/ buster main' > /etc/apt/sources.list.d/rb24.list
-        ;;
     bullseye | jammy)
         echo 'deb https://apt.rb24.com/ bullseye main' > /etc/apt/sources.list.d/rb24.list
         ;;
-    bookworm | Focal)
+    bookworm)
         echo 'deb https://apt.rb24.com/ bookworm main' > /etc/apt/sources.list.d/rb24.list
         ;;
     noble)
