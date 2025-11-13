@@ -2,7 +2,7 @@
 
 The following is a history of the changes made to this project.
 
-## v2.8.9 *(coming soon)*
+## v2.8.9 *(November 11th, 2025)*
 
 * Added the option to install the AirNav Radar rbfeeder client.
 * Removed scripting for FlightAware's version of the tcl-tls package.
