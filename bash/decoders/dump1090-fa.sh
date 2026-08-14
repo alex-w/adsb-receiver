@@ -95,7 +95,6 @@ cd $RECEIVER_BUILD_DIRECTORY/dump1090-fa/dump1090
 log_message "Determining which distribution to build the package tree for"
 distro="bullseye"
 
-esac
 log_message "Preparing to build dump1090-fa for ${distro}"
 echo ""
 ./prepare-build.sh $distro 2>&1 | log_pipe
