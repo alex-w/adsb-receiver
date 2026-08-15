@@ -2,6 +2,11 @@
 
 The following is a history of the changes made to this project.
 
+## v2.8.11 *(August 14th, 2026)*
+
+* Fixed a stray `esac` that caused the dump1090-fa installer to fail with a Bash syntax error.
+* Updated FlightAware components to 11.1, including official PiAware Python 3.12/Noble support and improved Debian/Ubuntu build-target selection.
+
 ## v2.8.10 *(April 9th, 2026)*
 
 * Trixie, Noble and Questing uses the official piaware_builder dev branch.
